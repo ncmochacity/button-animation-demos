@@ -1,0 +1,134 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html{
+  font-size:62.5%;
+  line-height:1.5;
+}
+body{
+  font-family:"Open Sans Condensed",sans-serif;
+  font-weight:300;
+  font-size:14px;
+  font-size:1.4rem;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+button{
+  outline:none;
+}
+.page-header{
+  background-color: #fff;
+}
+.page-header > h1{
+  width:100%;
+  height: 80px;
+  margin: 0 auto;
+  font-weight:300;
+  line-height:70px;
+  letter-spacing:0.1em;
+}
+.page-main{
+  height:350px;
+  position:relative;
+  background-color:#00d7eb;
+
+}
+
+.page-main h1{
+  margin:0 auto;
+  text-align: center;
+  font-size:50px;
+  font-size:5rem;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+
+
+#wrapper .inner{
+  position:relative;
+  margin:0 auto;
+  width:920px;
+}
+#wrapper button{
+  border:solid 0px #968782;
+  position:relative;
+}
+.inner button{
+  padding:0;
+  float:left;
+  display:block;
+  width:200px;
+  height:50px;
+  font-size:13px;
+  font-size:1.3rem;
+  font-weight:700;
+  letter-spacing:0.15em;
+  margin: 0 10px 20px;
+  color:#ffa68d;
+  border:none;
+  background-color:#ffffff;
+  border-radius:10px;
+}
+#wrapper button .bg{
+  position:absolute;
+  width:0;
+  top:0;
+  left:0;
+  height:100%;
+  overflow:hidden;
+}
+#wrapper button span span{
+  display:block;
+  width:200px;
+  height:50px;
+  color:#fff;
+  line-height: 50px;
+  background-color:#ffa68d;
+  border-radius:10px;
+}
+.footer{
+  background-color: #333;
+
+}
+.footer small{
+  color:#fff;
+  display:block;
+  text-align:center;
+  font-size:15px;
+  font-size:1.5rem;
+  margin:0 auto;
+  line-height:100px;
+  letter-spacing:0.2em;
+  font-weight:normal;
+}
+.copyright > a{
+  color:#6ebdf1;
+  text-decoration:none;
+
+}
+/* Tablet 880px */
+@media screen and (max-width: 55em) {
+  h1,
+  {
+    font-size:25px;
+    font-size:2.5rem;
+  }
+
+
+}
+/* Mobile  620px */
+@media screen and (max-width: 38.75em){
+  h1
+  {
+    font-size:23px;
+    font-size:2.3rem;
+  }
+  .page-main{
+    min-height:700px;
+  }
+
+}
