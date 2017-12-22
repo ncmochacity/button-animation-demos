@@ -57,6 +57,28 @@ button{
   border:solid 0px #968782;
   position:relative;
 }
+.bounce{
+  position:relative;
+  margin:0 ;
+  padding:0;
+  margin:0 auto;
+}
+.bounce button{
+  padding:0;
+  display:block;
+  text-align: center;
+  width:200px;
+  height:50px;
+  position:relative;
+  border:none;
+  background-color:#333;
+  color:#fff;
+  margin:0 auto;
+  letter-spacing:0.15em;
+  font-size:15px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
 .inner button{
   padding:0;
   float:left;

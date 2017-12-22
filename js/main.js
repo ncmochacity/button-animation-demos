@@ -34,5 +34,10 @@ $(function(){
      width:'0%'
    },duration,'easeOutCirc');
  });
-
+ $(".bounce button").on('mouseover',function(){
+   $(this).effect('bounce',{times:3}, 500);
+ });
+ $(".bounce button").on('mouseout',function(){
+   $(this).stop(true);
+ });
 });
